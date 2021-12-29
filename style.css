@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background-color: #dfaedc88;
+}
+
+header {
+    background-color: #422040;
+    margin: -8px -8px 38px -7px;
+    padding: 1px;
+    text-align: center;
+    box-shadow: 5px 3px 5px #6C6261;
+    color: #fff;
+}
+
+main {
+    background-color: #592b5665;
+    color: #fff;
+    font-size: 18px;
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.espac {
+    margin-bottom: 10px;
+}
+
+.botao:hover {
+    color: #422040;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3813/3813708.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tabuada!</h1>
+        <h2>Vamos contar...</h2>
+    </header>
+    <main>
+        <div class="espac">Vamos calcular uma tabuada!</div>
+        <div class="espac">
+            Número: <input type="number" name="nmr" id="nmr">
+            <input type="button" value="Gerar tabuada" id="botao" onclick="tabuada()">
+        </div>
+        <div class="espac">
+            <select name="res" id="res"  size="10"></select>
+            <!--<textarea name="res" id="res" cols="15" rows="10"></textarea>-->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
